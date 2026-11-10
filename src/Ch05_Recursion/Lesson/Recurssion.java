@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Recurssion {
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome to the factorial calculation : ");
-        System.out.println("Enter the number for factorial : ");
+        System.out.println("Welcome to the factorial calculation");
+        System.out.print("Enter the number for factorial : ");
         int userInputNumber = input.nextInt();
 
         System.out.println("factorialWithRecursion : " + factorialWithRecursion(userInputNumber));

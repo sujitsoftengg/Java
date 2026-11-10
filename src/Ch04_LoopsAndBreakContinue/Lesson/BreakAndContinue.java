@@ -6,7 +6,7 @@ public class BreakAndContinue {
         // Break
         for (int i = 0; i < 500; i++){
             if (i == 5){
-                break;
+                break; // exit
             }
             System.out.println("I reach at lower loop" + i);
         }

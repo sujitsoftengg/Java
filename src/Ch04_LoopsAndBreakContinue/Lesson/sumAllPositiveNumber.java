@@ -10,7 +10,7 @@ public class sumAllPositiveNumber {
         int total = 0;
 
         do {
-            System.out.println("Enter the num : ");
+            System.out.print("Enter the num : ");
             int userNum = input.nextInt();
             if (userNum < 0){
                 continue;
