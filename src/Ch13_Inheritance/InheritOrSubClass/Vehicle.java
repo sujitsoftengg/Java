@@ -5,14 +5,11 @@ public class Vehicle {
     protected String color;
     protected boolean fuelSystemAvailable;
 
-    public
-
-
-    void vehicleStart(){
+    public void vehicleStart() {
         System.out.println("Vehicle Start");
     }
 
-    void vehicleStop(){
+    void vehicleStop() {
         System.out.println("Vehicle Stop");
     }
 

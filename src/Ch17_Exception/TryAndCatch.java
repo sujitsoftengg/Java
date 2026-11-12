@@ -1,9 +1,9 @@
-package Ch17_Exception.TryCatch;
+package Ch17_Exception;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class test {
+public class TryAndCatch {
     static int numA;
     static int numB;
 
@@ -24,8 +24,8 @@ public class test {
             // Input mismatch exception handle
             System.out.println("Input mismatch please check again input.");
         }catch (ArithmeticException e) {
-            // if user division by zero then show error ArithmeticException which is handle in this block
-            System.out.printf("Arithmetic Exception %s", e);
+            // if user division by zero like exception or other than show error ArithmeticException which is handle in this block
+            System.out.printf("Arithmetic Exception %s", e + " Please Try Again Proper");
         }catch (Exception e){
             // any Exception handle with it
             System.out.printf("Exception %s", e);

@@ -10,7 +10,7 @@ class PersonalCar {
         this.color = color;
     }
 
-    // Sub Class
+    // Inner Class
     public static class PersonalCarTest {
 
         static void main(String[] args) {
@@ -31,9 +31,6 @@ class PersonalCar {
             System.out.println(Baleno.equals(Tiago)); // True
             System.out.println(Baleno.hashCode());  // 713338599
             System.out.println(Tiago.hashCode());  // 713338599
-
-
-
 
 
         }

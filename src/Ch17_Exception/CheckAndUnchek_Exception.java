@@ -1,9 +1,10 @@
-package Ch17_Exception.ExceptionTypes;
+package Ch17_Exception;
 
-public class Exception {
+public class CheckAndUnchek_Exception {
 
 
     static void main(String[] args) {
+        // Build In Exception have two types
 
         /*
          1. Checked Exceptions

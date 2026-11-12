@@ -6,8 +6,8 @@ public class BankAccount {
     private String accountHolderName;
     private long bankBalance;
 
-    private int[] amountDepositHistory;
-    private int[] amountWithdrawalHistory;
+    private long[] amountDepositHistory;
+    private long[] amountWithdrawalHistory;
 
 
     public BankAccount(String accountHolderName){
@@ -20,8 +20,8 @@ public class BankAccount {
         this.accountHolderName = accountHolderName;
         this.accountNumber = accountNumberGenerator();
 
-        amountDepositHistory = new int[0];
-        amountWithdrawalHistory = new int[0];
+        amountDepositHistory = new long[0];
+        amountWithdrawalHistory = new long[0];
     }
 
     public String getAccountHolderName() {
@@ -46,22 +46,22 @@ public class BankAccount {
         return bankBalance;
     }
 
-    public int[] getAmountDepositHistory(){
+    public long[] getAmountDepositHistory(){
         return Arrays.copyOf(amountDepositHistory, amountDepositHistory.length);
     }
 
     public void printAmountDepositHistory(){
-        for(int num : amountDepositHistory){
+        for(long num : amountDepositHistory){
             System.out.println(num);
         }
     }
 
-    public int[] getAmountWithdrawalHistory(){
+    public long[] getAmountWithdrawalHistory(){
         return Arrays.copyOf(amountWithdrawalHistory, amountWithdrawalHistory.length);
     }
 
     public void printAmountWithdrawalHistory(){
-        for(int num : amountWithdrawalHistory){
+        for(long num : amountWithdrawalHistory){
             System.out.println(num);
         }
     }
@@ -108,6 +108,7 @@ public class BankAccount {
             accountNumber += num;
         }
         return accountNumber;
+
     }
 
 

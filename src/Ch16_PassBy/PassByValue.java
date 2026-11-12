@@ -13,6 +13,7 @@ public class PassByValue {
 
     static void change(int num) {
         num = 100;
+        System.out.println("method" + num);
     }
 
     public static void main(String[] args) {

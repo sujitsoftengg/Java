@@ -25,10 +25,10 @@ public class MyCar {
     /*
     @Override
     public boolean equals(Object obj) {
-        if (!(obj instanceof Car)){
+        if (!(obj instanceof MyCar)){
             return false;
         }
-        Car car = (Car) obj;
+        MyCar car = (MyCar) obj;
         return car.color.equals(color) && car.price == price;
     }
     */

@@ -9,5 +9,6 @@ public class Customer {
         firstCustomer.withdraw(1000);
         System.out.println(firstCustomer.getBankBalance());
         firstCustomer.withdraw(-1000);
+        System.out.println(firstCustomer.getAccountNumber());
     }
 }

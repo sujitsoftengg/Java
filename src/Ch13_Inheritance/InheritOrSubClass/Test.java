@@ -9,7 +9,7 @@ public class Test {
         HeroXtream.setFuelType("Petrol");
         System.out.println(HeroXtream.getFuelType());
 
-        System.out.println(HeroXtream.toString());
+        System.out.println("tostring : " + HeroXtream.toString());
         System.out.println(HeroXtream.hashCode());
         System.out.println(HeroXtream.getClass());
 
