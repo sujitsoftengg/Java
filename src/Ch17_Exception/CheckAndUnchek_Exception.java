@@ -43,6 +43,51 @@ public class CheckAndUnchek_Exception {
 
 
 
+
+        /*
+            * ================= JAVA EXCEPTION HIERARCHY =================
+            *
+            * Object
+            *   |
+            *   └── Throwable
+            *         |
+            *         ├── Error (Unchecked)
+            *         |     |
+            *         |     ├── OutOfMemoryError
+            *         |     ├── StackOverflowError
+            *         |     ├── VirtualMachineError
+            *         |     └── AssertionError
+            *         |
+            *         └── Exception
+            *               |
+            *               ├── RuntimeException (Unchecked)
+            *               |      |
+            *               |      ├── ArithmeticException
+            *               |      ├── NullPointerException
+            *               |      ├── NumberFormatException
+            *               |      ├── IllegalArgumentException
+            *               |      └── InputMismatchException
+            *               |
+            *               └── Checked Exceptions
+            *                      |
+            *                      ├── IOException
+            *                      ├── FileNotFoundException
+            *                      ├── SQLException
+            *                      ├── ClassNotFoundException
+            *                      └── InterruptedException
+            *
+            * =============================================================
+            *
+            * IMPORTANT:
+            *
+            * 1. Throwable is the parent of Error and Exception.
+            * 2. Error is Unchecked.
+            * 3. RuntimeException is Unchecked.
+            * 4. Checked Exceptions must be caught or declared using throws.
+            * 5. Unchecked Exceptions do not require compulsory handling.
+            *
+          */
+
     }
 
 
