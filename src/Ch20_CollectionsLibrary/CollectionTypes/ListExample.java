@@ -1,4 +1,4 @@
-package Ch20_CollectionsLibrary.CollectionsTypes;
+package Ch20_CollectionsLibrary.CollectionTypes;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -208,6 +208,55 @@ public class ListExample {
 
 }
 
+/*
+================ LIST METHODS ================
+
+add(E e)
+add(int index, E element)
+addAll(Collection<? extends E> c)
+addAll(int index, Collection<? extends E> c)
+
+get(int index)
+set(int index, E element)
+
+remove(int index)
+remove(Object o)
+removeAll(Collection<?> c)
+retainAll(Collection<?> c)
+removeIf(Predicate<? super E> filter)
+clear()
+
+contains(Object o)
+containsAll(Collection<?> c)
+
+indexOf(Object o)
+lastIndexOf(Object o)
+
+size()
+isEmpty()
+
+iterator()
+listIterator()
+listIterator(int index)
+
+subList(int fromIndex, int toIndex)
+
+toArray()
+toArray(T[] array)
+toArray(IntFunction<T[]> generator)
+
+replaceAll(UnaryOperator<E> operator)
+sort(Comparator<? super E> c)
+reversed()                 // Java 21+
+
+forEach(Consumer<? super E> action)
+spliterator()
+stream()
+parallelStream()
+
+equals(Object o)
+hashCode()
+*/
 
 
 /*

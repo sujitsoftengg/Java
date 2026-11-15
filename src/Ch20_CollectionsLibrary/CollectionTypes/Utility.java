@@ -1,4 +1,4 @@
-package Ch20_CollectionsLibrary.CollectionsTypes;
+package Ch20_CollectionsLibrary.CollectionTypes;
 import java.util.Collection;
 
 public class Utility {

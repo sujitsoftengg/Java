@@ -1,4 +1,4 @@
-package Ch20_CollectionsLibrary.CollectionsTypes;
+package Ch20_CollectionsLibrary.CollectionTypes;
 
 public class AboutCollection {
     static void main(String[] args) {

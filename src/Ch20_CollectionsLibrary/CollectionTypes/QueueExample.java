@@ -1,4 +1,4 @@
-package Ch20_CollectionsLibrary.CollectionsTypes;
+package Ch20_CollectionsLibrary.CollectionTypes;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -13,7 +13,7 @@ public class QueueExample {
         queueList.offer(2);
 
         /*
-            for (Integer i : queueList){
+           [ for (Integer i : queueList){
                 System.out.printf("%d ", i);  // 1 2
             }
         */
@@ -34,6 +34,51 @@ public class QueueExample {
 
 
 }
+
+
+/*
+================ QUEUE METHODS ================
+
+add(E e)
+offer(E e)
+
+remove()
+poll()
+
+element()
+peek()
+
+
+// Inherited Collection Methods
+
+addAll(Collection<? extends E> c)
+
+remove(Object o)
+removeAll(Collection<?> c)
+retainAll(Collection<?> c)
+removeIf(Predicate<? super E> filter)
+clear()
+
+contains(Object o)
+containsAll(Collection<?> c)
+
+size()
+isEmpty()
+
+iterator()
+
+toArray()
+toArray(T[] array)
+toArray(IntFunction<T[]> generator)
+
+forEach(Consumer<? super E> action)
+spliterator()
+stream()
+parallelStream()
+
+equals(Object o)
+hashCode()
+*/
 
 
 /*
