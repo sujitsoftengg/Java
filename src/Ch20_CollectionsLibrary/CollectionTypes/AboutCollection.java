@@ -1,8 +1,35 @@
 package Ch20_CollectionsLibrary.CollectionTypes;
 
+import jdk.jshell.execution.Util;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+
 public class AboutCollection {
+
     static void main(String[] args) {
 
+        List<Integer> numList = new ArrayList<>();
+        numList.add(22);
+        numList.add(26);
+        numList.add(-12);
+        numList.add(3);
+        numList.add(66);
+        numList.add(0);
+
+        Utility.print(numList);
+        Collections.sort(numList);
+        Utility.print(numList);
+
+        Collections.reverse(numList);
+        Utility.print(numList);
+
+        List<Integer> UnmodifiableList = Collections.unmodifiableList(numList);
+        /*
+        UnmodifiableList.add(52); // Exception
+         */
 
 /*
 =========================================================
