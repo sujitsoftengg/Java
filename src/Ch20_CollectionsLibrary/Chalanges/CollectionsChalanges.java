@@ -50,6 +50,13 @@ public class CollectionsChalanges {
         Collections.swap(nameList, 0, 2 );
         nameList.forEach(Str -> System.out.println());
 
+        // Chalange 05
+        System.out.println("Before : " + nameList);
+        Collections.reverse(nameList);
+        System.out.println("After : " +nameList);
+
+
+
     }
 
 
