@@ -5,8 +5,6 @@ public class TestGrade {
     static void main(String[] args) {
         Grade grade = Grade.A;
 
-
-
     }
 
 }
